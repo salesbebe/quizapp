@@ -16,8 +16,6 @@
     --pontuacao-bg:#fff;
     --white:#fff;
     --shadow: 0px 16px 40px 0px rgba(143,160,193,0.14); 
-    --green:#26d782;
-    --red:#ee5454;
     --bg-html:#fff1e9;
     --bg-css:#e0fdef;
     --bg-javascript:#ebf0ff;
@@ -122,6 +120,7 @@ main h2 strong{
     gap: 16px;
     border-radius: 18px;
     margin-bottom: 12px;
+    box-shadow: var(--shadow);
 }
 
 .pontuacao strong{
@@ -143,14 +142,17 @@ main button{
     color: var(--white);
     width: 100%;
     
+    
     font-size: 18px;
     font-weight: 500;
+    transition: background 0.3s;
+    box-shadow: var(--shadow);
 }
 
 main button:hover{
     background: var(--purple-hover);
     cursor: pointer;
-    transition: background 0.3s;
+    
 }
 
 @media(min-width:1100px){
