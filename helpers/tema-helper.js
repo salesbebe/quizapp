@@ -1,5 +1,3 @@
-TEMA-HELPERS.JS
-
 let tema = "claro"
 
 export function trocarTema(body,botaoTema){
